@@ -1,5 +1,23 @@
-(ns the-bet.core)
+(ns the-bet.core
+  (:require [reagent.core :as r]
+            [reagent.dom :as rdom]
+            [cljsjs.semantic-ui-react :as ui]))
 
 (js/console.log "Hello, world!")
 
+(defonce app-db (r/atom {}))
+
 (def nhl-api-base "https://statsapi.web.nhl.com/api/v1/")
+
+(defn header []
+  [:header
+   [:> ui/Grid {:columns 2}
+    [:> ui/Grid.Column
+     [:h1 "The Bet"]]
+    [:> ui/Grid.Column]]])
+
+(defn root []
+  [:div
+   [header]])
+
+(rdom/render [root] (js/document.getElementById "app"))

@@ -1,1 +1,3 @@
-{:deps {org.clojure/clojurescript {:mvn/version "1.10.773"}}}
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.773"}
+        re-frame {:mvn/version "1.0.0"}
+        cljsjs/semantic-ui-react {:mvn/version "0.88.1-0"}}}
