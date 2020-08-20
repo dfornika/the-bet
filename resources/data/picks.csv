@@ -1,0 +1,65 @@
+year,pick_num,nhl_api_team_id,team,chosen_by
+2017,1,5,Pittsburgh,Jeff
+2017,2,16,Chicago,Dan
+2017,3,22,Edmonton,Jeff
+2017,4,15,Washington,Dan
+2017,5,30,Minnesota,Jeff
+2017,6,24,Anaheim,Dan
+2017,7,8,Montreal,Jeff
+2017,8,9,Ottawa,Dan
+2017,9,6,Boston,Jeff
+2017,10,28,San Jose,Dan
+2017,11,20,Calgary,Jeff
+2017,12,3,NY Rangers,Dan
+2017,13,29,Columbus,Jeff
+2017,14,19,St. Louis,Dan
+2017,15,18,Nashville,Jeff
+2017,16,10,Toronto,Dan
+2018,1,5,Penguins,Dan
+2018,2,14,TB Lightning,Jeff
+2018,3,6,Bruins,Dan
+2018,4,18,Predators,Jeff
+2018,5,24,Mighty Ducks,Dan
+2018,6,52,Jets,Jeff
+2018,7,10,Maple Leafs,Dan
+2018,8,15,Capitols,Jeff
+2018,9,54,Golden Knights,Dan
+2018,10,26,LA Kings,Jeff
+2018,11,4,Philly,Dan
+2018,12,29,Columbus BJ,Jeff
+2018,13,28,SJ Sharks,Dan
+2018,14,30,Minn Wild,Jeff
+2018,15,21,Colorado Avs,Dan
+2018,16,1,Devils,Jeff
+2019,1,14,TB Lightning,Dan
+2019,2,20,Calgary Flames,Jeff
+2019,3,15,Washington Capitals,Dan
+2019,4,6,Boston Bruins,Jeff
+2019,5,5,Pittsburgh Penguins,Dan
+2019,6,28,San Jose Sharks,Jeff
+2019,7,18,Nashville Predators,Dan
+2019,8,10,Toronto Maple Leafs,Jeff
+2019,9,52,Winnipeg Jets,Dan
+2019,10,19,St. Louis Blues,Jeff
+2019,11,2,NY Islanders,Dan
+2019,12,54,Las Vegas Golden Knights,Jeff
+2019,13,21,Colorado Avalanche,Dan
+2019,14,25,Dallas Stars,Jeff
+2019,15,29,Columbus Blue Jackets,Dan
+2019,16,12,Carolina Hurricanes,Jeff
+2020,1,4,Philadelphia Flyers,Dan
+2020,2,23,Vancouver Canucks,Jeff
+2020,3,15,Washington Capitals,Dan
+2020,4,14,Tampa Bay Lightning,Jeff
+2020,5,54,Las Vegas Golden Knights,Dan
+2020,6,6,Boston Bruins,Jeff
+2020,7,19,St. Louis Blues,Dan
+2020,8,21,Colorado Avalanche,Jeff
+2020,9,25,Dallas Stars,Dan
+2020,10,20,Calgary Flames,Jeff
+2020,11,12,Carolina Hurricanes,Dan
+2020,12,8,Montreal Canadiens,Jeff
+2020,13,2,New York Islanders,Dan
+2020,14,16,Chicago Blackhawks,Jeff
+2020,15,29,Columbus Blue Jackets,Dan
+2020,16,53,Phoenix Coyotes,Jeff
