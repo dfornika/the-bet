@@ -1,0 +1,4 @@
+^{:css-dirs ["resources/public/css"]}
+{:main the-bet.minimal
+ :optimizations :advanced
+ :output-to "resources/public/js/main.js"}
