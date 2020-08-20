@@ -1,4 +1,5 @@
 ^{:css-dirs ["resources/public/css"]}
 {:main the-bet.core
- :optimizations :advanced 
- :output-to "resources/public/js/main.js"}
+ :optimizations :advanced
+ :output-dir "target/out"
+ :output-to "resources/public/js/compiled/main.js"}
