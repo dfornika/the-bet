@@ -19,4 +19,7 @@
   [:div
    [header]])
 
-(rdom/render [root] (js/document.getElementById "app"))
+(defn ^:export main []
+  (rdom/render [root]
+               (js/document.getElementById "app")))
+
