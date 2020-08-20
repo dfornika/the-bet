@@ -11,10 +11,9 @@
 
 (defn header []
   [:header
-   [:> ui/Grid {:columns 2}
+   [:> ui/Grid {:columns 1}
     [:> ui/Grid.Column
-     [:h1 "The Bet"]]
-    [:> ui/Grid.Column]]])
+     [:h1 "The Bet"]]]])
 
 (defn root []
   [:div
