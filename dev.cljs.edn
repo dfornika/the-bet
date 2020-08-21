@@ -1,3 +1,6 @@
 ^{:css-dirs ["resources/public/css"]}
 {:main the-bet.core
+ :asset-path "js/compiled/out"
+ :output-dir "resources/public/js/compiled/out"
+ :output-to "resources/public/js/compiled/main.js"
  :source-map true}
