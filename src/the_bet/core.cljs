@@ -22,7 +22,7 @@
      [:th "Winner"]]]
    [:tbody
     [:tr
-     [:td "1996"]
+     [:td "1997"]
      [:td "Detroit Red Wings"]
      [:td "$2.00"]
      [:td "Jeff"]]
