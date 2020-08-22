@@ -13,24 +13,29 @@
    [:h1 "The Bet"]])
 
 (defn table []
-  [:table {:class "table"}
-   [:tbody
+  [:table {:class "ui celled table"}
+   [:thead
     [:tr
      [:th "Year"]
      [:th "Champion"]
-     [:th "Prize"]]
+     [:th "Prize"]
+     [:th "Winner"]]]
+   [:tbody
     [:tr
      [:td "1996"]
      [:td "Detroit Red Wings"]
-     [:td "$2.00"]]
+     [:td "$2.00"]
+     [:td "Jeff"]]
     [:tr
      [:td "1998"]
      [:td "Detroit Red Wings"]
-     [:td "$4.00"]]
+     [:td "$4.00"]
+     [:td "Jeff"]]
     [:tr
      [:td "1999"]
      [:td "Dallas Stars"]
-     [:td "$10.00"]]]])
+     [:td "$10.00"]
+     [:td "Dan"]]]])
 
 (defn root []
   [:div
