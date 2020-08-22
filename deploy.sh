@@ -2,7 +2,7 @@
 set -euo pipefail
 
 cd $(dirname $0)
-clojure -A:fig -m figwheel.main -b prod
+# clojure -A:fig -m figwheel.main -b prod
 cd resources/public
 git init
 git add .

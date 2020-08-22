@@ -1,21 +1,15 @@
 (ns the-bet.core
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [reagent.core :as r]
-            [reagent.dom :as rdom]
-            [cljsjs.semantic-ui-react :as ui]
+            [reagent.dom :as rdom]            
             [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]))
-
-(js/console.log "Hello, world!")
 
 (defonce app-db (r/atom {}))
 
 (defn header []
   [:header
-   [:> ui/Grid {:columns 1}
-    [:> ui/Grid.Row
-     [:> ui/Grid.Column
-      [:h1 "The Bet"]]]]])
+   [:h1 "The Bet"]])
 
 (defn root []
   [:div
