@@ -5,7 +5,8 @@
             [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]
             [clojure.pprint :as pprint]
-            [goog.string :as gstring]))
+            [goog.string :as gstring]
+            goog.string.format))
 
 (def yearly-winner-data [
                          {:year 1997
